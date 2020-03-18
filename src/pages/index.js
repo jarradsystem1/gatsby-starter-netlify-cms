@@ -1,17 +1,17 @@
 import React from "react"
 import SEO from '../components/seo';
 import Layout from '../containers/layout/layout'
-import Hero from '../containers/home-banner/hero'
-import Story from '../containers/home-banner/story'
-import ProjectSection from '../containers/home-banner/project'
-import TestimonialSection from '../containers/home-banner/testimonial'
-import ClientSection from '../containers/home-banner/clients'
-import VideoSection from '../containers/home-banner/video'
-import BlogSection from '../containers/home-banner/blog'
+import Hero from '../containers/home-particle/hero'
+import Story from '../containers/home-particle/story'
+import ProjectSection from '../containers/home-particle/project'
+import TestimonialSection from '../containers/home-particle/testimonial'
+import ClientSection from '../containers/home-particle/clients'
+import VideoSection from '../containers/home-particle/video'
+import BlogSection from '../containers/home-particle/blog'
 
 export default () => (
     <Layout>
-        <SEO title="Home"/>
+        <SEO title="Home - Particle"/>
         <Hero/>
         <Story/>
         <ProjectSection/>
