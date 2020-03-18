@@ -65,7 +65,7 @@ const ProjectTemplate = ({data, pageContext: {next, previous}, ...restProps}) =>
                 {cover_image && (
                     <FullwidthBox>
                         <Controller>
-                            <Scene classToggle="animated" triggerElement="#project-image-1" triggerHook="onCenter">
+                            <Scene triggerElement="#project-image-1" triggerHook="onCenter">
                                 <div className="rn_surface" id="project-image-1">
                                     <Image fluid={cover_image.childImageSharp.fluid} alt="single"/>
                                 </div>

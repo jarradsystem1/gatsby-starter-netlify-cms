@@ -524,12 +524,12 @@ export const GlobalCSS = createGlobalStyle `
 
     .rn_surface.animated::before {
         background: #ddd;
-        animation: rn_surface 2s cubic-bezier(.80, 0, .180, 1) both;
+        animation: rn_surface .5s cubic-bezier(.80, 0, .180, 1) both;
         z-index: 3;
     }
 
     .rn_surface.animated::after {
-        animation: rn_surfaceBack 2s cubic-bezier(.80, 0, .180, 1) both
+        animation: rn_surfaceBack .5s cubic-bezier(.80, 0, .180, 1) both
     }
     .medium-zoom-image, .medium-zoom-overlay {
         z-index: 9999;
