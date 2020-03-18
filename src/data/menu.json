@@ -1,0 +1,25 @@
+[{
+        "title": "Home",
+        "path": "/"
+    },
+    {
+        "title": "About Us",
+        "path": "/company"
+    },
+    {
+        "title": "projects",
+        "path": "/project"
+    },
+    {
+        "title": "Services",
+        "path": "/service"
+    },
+    {
+        "title": "blog",
+        "path": "/blog"
+    },
+    {
+        "title": "contact us",
+        "path": "/contact"
+    }
+]
