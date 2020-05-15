@@ -28,7 +28,7 @@ module.exports = {
         dribbble: 'https://dribbble.com'
       }
     },
-    copyright: "The RN Creative Agency. All Rights Reserved"
+    copyright: "MNCkzn. All rights reserved"
   },
   plugins: [
     `gatsby-plugin-styled-components`,

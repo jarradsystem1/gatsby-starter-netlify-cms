@@ -47,22 +47,22 @@ export const LogoWrapper = styled.div `
     ${props => props.responsive && css `
         ${props => props.responsive.xlarge && css `
             @media ${device.xlarge}{
-                max-width: ${props => props.responsive.xlarge.maxwidth};
+                width: ${props => props.responsive.xlarge.maxwidth};
             }
         `};
         ${props => props.responsive.large && css `
             @media ${device.large}{
-                max-width: ${props => props.responsive.large.maxwidth};
+                width: ${props => props.responsive.large.maxwidth};
             }
         `};
         ${props => props.responsive.medium && css `
             @media ${device.medium}{
-                max-width: ${props => props.responsive.medium.maxwidth};
+                width: ${props => props.responsive.medium.maxwidth};
             }
         `};
         ${props => props.responsive.small && css `
             @media ${device.small}{
-                max-width: ${props => props.responsive.small.maxwidth};
+                width: ${props => props.responsive.small.maxwidth};
             }
         `};
         ${props => props.responsive.xsmall && css `

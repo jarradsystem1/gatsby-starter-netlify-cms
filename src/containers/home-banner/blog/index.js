@@ -41,7 +41,6 @@ const BlogSection = ({section}) => {
     `);
     const blogSecData = blogQueryData.homedataJson;
     const blogs = blogQueryData.allMarkdownRemark.edges;
-    
     return (
         <BlogSectionWrap {...section}>
             <div className="col-1 offset-1">
