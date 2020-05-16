@@ -125,7 +125,7 @@ export const OverlaySocial = styled.div `
 
 export const OverlayQuickInfo = styled.div `
     width: 60%;
-    background: #000;
+    background: #ff005a;
     padding: 40px;
     text-align: center;
     display: flex;

@@ -25,7 +25,8 @@ const JoinOurTeam = ({headingStyle, textStyle, buttonStyle}) => {
                         <SectionTitleWrap>
                             {title && <Heading {...headingStyle}>{title}</Heading>}
                             {desc && <Text {...textStyle}>{desc}</Text>}
-                            <Button as={Link} to={path} {...buttonStyle}>Join Now</Button>
+                            {/* <Button as={Link} to={path} {...buttonStyle}>Join Now</Button> */}
+                            <Text {...buttonStyle}>Join Now</Text>
                         </SectionTitleWrap>
                     </SectionInner>
                 </div>
