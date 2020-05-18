@@ -2,16 +2,16 @@ import React from "react";
 import SEO from "../components/seo";
 import Layout from "../containers/layout/layout";
 import Banner from "../containers/company/banner";
-import About from "../containers/company/about";
 import Story from "../containers/home-particle/story";
+import Awwards from "../containers/company/about/awwards";
 
 export default () => (
   <Layout>
     <SEO title="Service" />
     <Banner />
     <Story />
-    <Story />
-    <Story />
-    <About />
+    <Awwards />
+    <Awwards />
+    <Awwards />
   </Layout>
 );
