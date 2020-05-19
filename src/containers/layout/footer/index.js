@@ -89,7 +89,7 @@ const Footer = ({
 						{address && (
 							<Address>
 								<Text {...addresTextStyle}> 
-									<Text {...addresSpanStyle}>ENVAto hq</Text> 
+									<Text {...addresSpanStyle}>MNC HQ</Text> 
 									{parse(address)}
 								</Text>
 							</Address>
