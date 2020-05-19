@@ -1,7 +1,7 @@
 [
     {
         "id": "particle_hero_section_content",
-        "title": "Robust networking solutions and capabilities to empower your business and drive continuity.",
+        "title": "Robust networking solutions and capabilities to empower your business and drive .",
         "date": "",
         "bg_image": "./images/particle-banner.jpg",
         "btn_link": "/service",
@@ -25,7 +25,7 @@
     }, 
     {
         "id": "particle_story_section_contnet",
-        "title": "Our clients usually say that our comprtomise with innovation and the strategy.",
+        "title": "A passion for what we do and a drive to innovate is all part of the strategy",
         "subtitle": "Our Story",
         "image": "./images/about.jpg",
         "path": "/company",
