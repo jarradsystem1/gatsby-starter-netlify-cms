@@ -1,12 +1,12 @@
 ---
-title: 'Ea molestias quasi exercitationem repellat you need to be sure middle of text'
+title: 'Article 1'
 date: 2020-02-15 02:00:00
 author: 'theRN'
 id: 'blog-7'
 image: './images/blog-7/blog-7.jpg'
 categories: 
     - gatsby
-shortDesc: 'I do not hate him, they are welcome nlabore pleasures of life because they are ninventore'
+shortDesc: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem'
 ---
 
 <div class="rn-blog-meta-area section-pb-xl">

@@ -1,10 +1,10 @@
 ---
-title: 'He who desires that this tiny'
+title: 'Article 1'
 date: 2020-01-15 02:00:00
 author: 'theRN'
 id: 'blog-6'
 image: './images/blog-6/blog-6.jpg'
-shortDesc: 'I do not hate him, they are welcome nlabore pleasures of life because they are ninventore'
+shortDesc: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem'
 ---
 
 <div class="rn-blog-meta-area section-pb-xl">

@@ -1,5 +1,5 @@
 ---
-title: 'To provide or to reject'
+title: 'Article 1'
 date: 2020-01-14 05:00:00
 author: 'theRN'
 id: 'blog-2'
