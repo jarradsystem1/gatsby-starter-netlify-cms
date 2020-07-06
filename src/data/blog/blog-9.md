@@ -1,12 +1,12 @@
 ---
-title: 'Commodi ullam sint et excepturi error explicabo enim ipsam voluptatem quia voluptas sit'
+title: 'Article 1'
 date: 2020-02-17 02:00:00
 author: 'theRN'
 id: 'blog-9'
 image: './images/blog-9/blog-9.jpg'
 categories: 
     - react
-shortDesc: 'I do not hate him, they are welcome nlabore pleasures of life because they are ninventore'
+shortDesc: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem'
 ---
 
 <div class="rn-blog-meta-area section-pb-xl">

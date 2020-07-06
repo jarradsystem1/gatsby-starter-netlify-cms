@@ -1,10 +1,10 @@
 ---
-title: 'Intense pain pleasures'
+title: 'Article 1'
 date: 2020-01-15 02:00:00
 author: 'theRN'
 id: 'blog-3'
 image: './images/blog-3/blog-3.jpg'
-shortDesc: 'this is a desire to do like she nips pleasure mistake in the so called sailor who is not a great'
+shortDesc: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos'
 is_featured: true
 ---
 
