@@ -6,9 +6,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: "TheRN",
-    titleTemplate: `Creative Agency React Gatsby Template`,
-    description: `TheRN specially built for Creative Agency, Corporate website, Portfolio website, Photographer, Personal Portfolio and all kinds of Personal Portfolio & Business and others. This Modern and Professional template offers Modern animation, Smooth Scrolling Animation sites etc.`,
+    title: "MNCkzn",
+    titleTemplate: `MNC`,
+    description: `MNCkzn site description here.`,
     author: `@RainbowThemes`,
     twitterUsername: `@RainbowThemes`,
     image: 'bg-image-1.jpg',
@@ -17,7 +17,7 @@ module.exports = {
       postal_code: 'PO Box 16122 Collins Street <br/> West Victoria 8007 Australia.',
       address: '121 King Street, Melbourne Victoria 3000 Australia.',
       email: 'youremail@example.com',
-      company_email: 'example@yourcompany.com',
+      company_email: 'info@yourcompany.com',
       company_address: '4415 Poco Mas Drive, Dallas United States.',
       phone: '+012 33 445566',
       phone2: '+013 55 454565',
