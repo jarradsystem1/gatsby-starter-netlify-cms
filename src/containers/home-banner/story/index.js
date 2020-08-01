@@ -36,7 +36,6 @@ const Story = ({ section, paragraph, paragraphTwo, button, image }) => {
   `);
   const storyData = storyQueryData.homedataJson;
   const { title, subtitle, path, content } = storyData;
-  const header = storyQueryData.allStrapiOurStory.nodes.Header;
   const imageData = storyData.image.childImageSharp.fluid;
 
   return (
