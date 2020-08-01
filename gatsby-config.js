@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "MNCkzn",
+    title: 'MNCkzn',
     titleTemplate: `MNC`,
     description: `MNCkzn site description here.`,
     author: `@RainbowThemes`,
@@ -14,7 +14,8 @@ module.exports = {
     image: 'bg-image-1.jpg',
     siteUrl: 'http://thern.rainbowit.net/',
     contact: {
-      postal_code: 'PO Box 16122 Collins Street <br/> West Victoria 8007 Australia.',
+      postal_code:
+        'PO Box 16122 Collins Street <br/> West Victoria 8007 Australia.',
       address: '121 King Street, Melbourne Victoria 3000 Australia.',
       email: 'youremail@example.com',
       company_email: 'info@yourcompany.com',
@@ -28,11 +29,11 @@ module.exports = {
         dribbble: 'https://dribbble.com'
       }
     },
-    copyright: "MNCkzn. All rights reserved"
+    copyright: 'MNCkzn. All rights reserved'
   },
   plugins: [
     `gatsby-plugin-styled-components`,
-    `gatsby-transformer-sharp`, 
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-json`,
@@ -46,49 +47,67 @@ module.exports = {
         background_color: `#333333`,
         theme_color: `#001c43`,
         display: `standalone`,
-        "icons": [
+        icons: [
           {
-            "src": "/icons/icon-72x72.png",
-            "sizes": "72x72",
-            "type": "image/png"
+            src: '/icons/icon-72x72.png',
+            sizes: '72x72',
+            type: 'image/png'
           },
           {
-            "src": "/icons/icon-96x96.png",
-            "sizes": "96x96",
-            "type": "image/png"
+            src: '/icons/icon-96x96.png',
+            sizes: '96x96',
+            type: 'image/png'
           },
           {
-            "src": "/icons/icon-128x128.png",
-            "sizes": "128x128",
-            "type": "image/png"
+            src: '/icons/icon-128x128.png',
+            sizes: '128x128',
+            type: 'image/png'
           },
           {
-            "src": "/icons/icon-144x144.png",
-            "sizes": "144x144",
-            "type": "image/png"
+            src: '/icons/icon-144x144.png',
+            sizes: '144x144',
+            type: 'image/png'
           },
           {
-            "src": "/icons/icon-152x152.png",
-            "sizes": "152x152",
-            "type": "image/png"
+            src: '/icons/icon-152x152.png',
+            sizes: '152x152',
+            type: 'image/png'
           },
           {
-            "src": "/icons/icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
+            src: '/icons/icon-192x192.png',
+            sizes: '192x192',
+            type: 'image/png'
           },
           {
-            "src": "/icons/icon-384x384.png",
-            "sizes": "384x384",
-            "type": "image/png"
+            src: '/icons/icon-384x384.png',
+            sizes: '384x384',
+            type: 'image/png'
           },
           {
-            "src": "/icons/icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
+            src: '/icons/icon-512x512.png',
+            sizes: '512x512',
+            type: 'image/png'
           }
         ]
-      },
+      }
+    },
+    {
+      resolve: 'gatsby-source-strapi',
+      options: {
+        apiURL: 'http://64.227.73.108',
+        contentTypes: [
+          // List of the Content Types you want to be able to request from Gatsby.
+          'testimonial',
+          'badge',
+          'client',
+          'award',
+          'project',
+          'service',
+          'post'
+        ],
+        singleTypes: [`homepage`, `our-story`, `about-us`, `hiring`, 'banners'],
+        queryLimit: 1000
+      }
     },
     {
       resolve: 'gatsby-plugin-robots-txt',
@@ -106,10 +125,10 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1920
-            },
-          },
-        ],
-      },
+            }
+          }
+        ]
+      }
     },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
@@ -120,22 +139,22 @@ module.exports = {
             subsets: [`latin`],
             variants: [`300`, `300i`, `400`, `400i`, `500`, `600`, `700`, `900`]
           }
-        ],
-      },
+        ]
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/assets/img/`,
-      },
+        path: `${__dirname}/src/assets/img/`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `data`,
-        path: `${__dirname}/src/data/`,
-      },
+        path: `${__dirname}/src/data/`
+      }
     }
   ]
-}
+};
