@@ -37,7 +37,7 @@
     "google-maps-react": "^2.0.2",
     "html-react-parser": "^0.10.0",
     "intersection-observer": "^0.7.0",
-    "marked": "^1.1.1",
+    "marked": "^4.0.10",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-gsap": "^1.2.0",
